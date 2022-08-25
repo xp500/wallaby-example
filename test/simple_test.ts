@@ -10,6 +10,6 @@ describe("Describe", () => {
   it("should return false", async () => {
     const c = new MyClass();
     const r = await c.f("git@github.com:xp500/emptasdy-repo.git");
-    expect(r).toBeFalsy();
+    expect(r).toBeTruthy();
   });
 });
